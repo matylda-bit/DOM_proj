@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DOM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="form-container">
+    <form class="form form--add">
+      <h1 class="form__title">Add an element to DOM</h1>
+      <input type="text" class="form__input" name="node" placeholder="HTML element " required>
+      <input type="text" class="form__input" name="text" placeholder="text in HTML element">
+      <input type="text" class="form__input" name="attr" placeholder="HTML attribute">
+      <input type="text" class="form__input" name="value" placeholder="HTML value attribute">
+      <button class="form__button">Add an element</button>
+    </form>
+    <form class="form form--search">
+      <h1 class="form__title">Search DOM</h1>
+      <input type="text" class="form__input" name="searching-element" required placeholder="searching element">
+      <input type="submit" class="form__button" value="Find & show info">
+    </form>
+  </div>
+  <div class="result"></div>
+  <div class="content"></div>
+  <footer class="footer">Made by Matylda <br>Made`J</footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
